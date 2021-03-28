@@ -8,11 +8,11 @@ This an experimental plugin that implements DNS zone transfer protocol (AXFR) [R
 For now the plugin must be inside hsd directory
 
 ```
-git clone https://github.com/handshake-org/hsd && cd hsd 
-git clone https://github.com/buffrr/hsd-axfr axfr
-git apply axfr/rinfo.patch
+$ git clone https://github.com/handshake-org/hsd && cd hsd 
+hsd$ git clone https://github.com/buffrr/hsd-axfr axfr
 
-npm install 
+
+npm install --production
 ./bin/hsd --plugins=$(pwd)/axfr --axfr-allow-ips=127.0.0.1
 ```
 
