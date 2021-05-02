@@ -1,7 +1,7 @@
 {
   "name": "axfr",
   "version": "0.0.1",
-  "description": "hsd plugin to allow zone transfer using AXFR from the root server",
+  "description": "HSD plugin to allow zone transfers using AXFR",
   "main": "./lib/axfr.js",
   "directories": {
     "lib": "lib"
@@ -15,6 +15,7 @@
   },
   "peerDependencies": {
     "hsd": "~2.3.0",
+    "binet": "~0.3.6",
     "bns": "~0.14.0"
   },
   "keywords": [
