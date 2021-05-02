@@ -19,10 +19,10 @@ For now the plugin must be inside hsd directory
 
 ```
 $ git clone https://github.com/handshake-org/hsd && cd hsd 
-hsd$ git clone https://github.com/buffrr/hsd-axfr axfr
+$ git clone https://github.com/buffrr/hsd-axfr axfr
 
 npm install --production
-$ hsd --plugins=$(pwd)/axfr
+$ ./bin/hsd --plugins=$(pwd)/axfr
 ```
 
 
